@@ -1,0 +1,26 @@
+.type-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: left;
+  padding: 16px;
+}
+
+.type-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.type-btn.active {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-color: transparent;
+}

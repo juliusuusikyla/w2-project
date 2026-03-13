@@ -1,0 +1,23 @@
+.sort-bar {
+  display: flex;
+  gap: 32px;
+  padding: 16px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.sort-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sort-arrow {
+  cursor: pointer;
+  opacity: 0.25;
+  user-select: none;
+}
+
+.sort-arrow.active {
+  opacity: 1;
+}

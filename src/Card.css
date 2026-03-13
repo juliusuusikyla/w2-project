@@ -1,0 +1,65 @@
+.card {
+  width: 250px;
+  padding: 20px;
+  border: 3px solid gold;
+  border-radius: 12px;
+  background: white;
+  box-sizing: border-box;
+  height: 325px;
+}
+
+.headerstats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hp,
+.attack {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.attack img {
+  width: 14px;
+  height: 14px;
+}
+
+.beast-img img {
+  width: 100%;
+  display: block;
+}
+
+.beast-name {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.beast-type {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.type-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gold;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.paw-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
